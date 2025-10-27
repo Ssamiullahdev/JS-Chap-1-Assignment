@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+.Main_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 35px;
+}
+
+.btns {
+    display: flex;
+    gap: 30px;
+}
+
+.btn-design {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: #8efd44;
+    border: 1px dashed rgb(0, 0, 0);
+    font-weight: bold;
+    transition-duration: 250ms;
+}
+
+.btn-design:active {
+    background-color: #08abdd;
+    transform: scale(0.8);  
+}
