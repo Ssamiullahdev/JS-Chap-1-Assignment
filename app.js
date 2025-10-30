@@ -1,24 +1,32 @@
 alert("Ans-1 Asalam O Alikum");
 
-function showAlert2 () {
+function showAlert2() {
     alert("I am learning mern stack Development");
 }
 
-function showAlert3 () {
+function showAlert3() {
     alert("Well Come To JS Land...\nHappy Coding!");
 }
 
-function showAlert4 () {
+function showAlert4() {
     alert("Well Come To JS Land");
     alert("Happy Coding! \nPrevent this page from creating additional dialogs.");
 }
 
-function showAlert5 () {
+function showAlert5() {
     alert("Hello....I can run JS throught my web browzer's console");
     console.log(alert);
 }
 
-function showAlert6 () {
-    alert("The Anser is d");
+function onshowAlert6() {
+    alert("I used the  t in My my new Project\nand also I am working on it..");
     console.log(alert);
+}
+
+document.getElementById("Options").addEventListener("click", function () {
+    document.getElementById("showContent").innerHTML = "a. Head </br> b. Body (before your page’s HTML) </br> c. Body (inside your page’s HTML) </br> d.Body (after your page’s HTML)";
+});
+
+function rightAnswer() {
+    alert("Body (inside your page’s HTML)");
 }
